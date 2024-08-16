@@ -7,14 +7,9 @@ body {
 }
 
 .sidebar {
-    background-color: #1f1b24b4;
-    color: #fff;
-    padding: 1rem;
-    width: 80px;
-    min-height: 30vh;
+    padding: 0.5rem;
     position: fixed;
     top: 300px;
-    left: 0;
 }
 
 .sidebar-nav ul {
@@ -37,8 +32,8 @@ body {
 }
 
 .header {
-    background-color: #1f1b24b4;
-    color: #fff;
+    background-color: #1C1C1C;
+    color: #00AEEF;
     padding: 1rem;
     text-align: center;
 }
@@ -53,7 +48,7 @@ body {
 }
 
 .nav a {
-    color: #fff;
+    color: #e2e6e6;
     margin: 0 1rem;
     text-decoration: none;
     font-size: 1.2rem;
@@ -69,6 +64,7 @@ body {
 .contact-section {
     padding: 2rem;
     text-align: center;
+    color: rgb(247, 223, 192);
 }
 
 .projects-grid {
@@ -78,19 +74,45 @@ body {
 }
 
 .project-card {
-    background-color: #f4f4f4;
+    background-color: #b3bfb6;
     padding: 1.5rem;
     border-radius: 8px;
 }
 
 .footer {
-    background-color: #1f1b24b4;
+    background-color: #1C1C1C;
     color: #fff;
     text-align: center;
     padding: 1rem;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 0.7rem;
+    background-color: #00AEEF;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 30%;
+    margin: 0 auto;
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {
