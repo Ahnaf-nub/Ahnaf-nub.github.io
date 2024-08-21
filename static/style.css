@@ -24,7 +24,7 @@ body {
 .sidebar-nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .sidebar-nav ul li a:hover {
@@ -210,6 +210,17 @@ body {
 
 .tech-item p {
     margin: 0;
+}
+
+#game-of-life {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+#game-of-life canvas {
+    border: 5px solid #000000;
+    border-radius: 10px;
 }
 
 @media (max-width: 768px) {
