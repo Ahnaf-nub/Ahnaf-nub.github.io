@@ -219,6 +219,8 @@ body {
 }
 
 #game-of-life canvas {
+    max-width: 100%;
+    height: auto;
     border: 5px solid #000000;
     border-radius: 10px;
 }
